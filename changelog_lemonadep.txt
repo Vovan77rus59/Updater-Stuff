@@ -1,4 +1,30 @@
 ====================
+    02-01-2024     
+====================
+\n* frameworks/base\n0e91f80  SystemUI: Make sure the udfps animation is hidden on the bouncer  [Dhina17]
+0248622  SystemUI: Simplify udfps animation style selection  [Dhina17]
+885c47c  fwb: Config udfps animation package via res  [Dhina17]
+de76d64  SystemUI: Update udfps animation position on sensor props change  [Dhina17]
+954ec07  SystemUI: Bring back UDFPS animation  [SagarMakhar]\n
+\n* packages/apps/ThemePicker\ndb0cec6  ThemePicker: Add udfps animation customization  [Dhina17]\n
+\n* prebuilts/derp\nc87d1fb  derp: Update to Gramophone-1.0.2.f01579-release  [Mohammad Hasan Keramat J]\n
+\n* vendor/overlay\n9968d51  UdfpsAnimations: Add 'none' to the styles  [Dhina17]
+c88a4b4  overlays: Bring back UDFPS animations  [SagarMakhar]\n
+
+====================
+    01-31-2024     
+====================
+
+====================
+    01-30-2024     
+====================
+\n* frameworks/base\n32c84e6  PackageInstaller: Remove side padding from the dialog  [Anushek Prasal]
+a9fc77d  PackageInstaller: show current/new version on sideload  [ezio84]
+0efae65  SystemUI: Nuke oriented navbar handle  [Ido Ben-Hur]
+a25ae9c  fixup! SystemUI: Add double tap to sleep gesture  [someone5678]
+aaabde1  fixup! VolumeDialogImpl: Ignore external layout direction changes  [Arian]\n
+
+====================
     01-29-2024     
 ====================
 \n* build/make\n79dd39e  releasetools: Fix fstab path detection when input_file is a path to zip  [LuK1337]
@@ -1245,30 +1271,4 @@ fae3a24  ThemePicker: Clear settings on error  [Pranav Vashi]\n
 29d0b80  soong: Add TARGET_USES_NOTHING_CAMERA  [cjh1249131356]
 277aea7  soong: Add TARGET_USES_OPLUS_CAMERA  [cjh1249131356]\n
 \n* vendor/gms\n3e487cc  gms_pico: Add CalendarGooglePrebuilt  [NurKeinNeid]\n
-
-====================
-    01-27-2024     
-====================
-
-====================
-    01-26-2024     
-====================
-\n* build/make\n923bc7a  Fix unified a/b zip generation failure  [Aaron Kling]\n
-\n* packages/apps/DerpSpace\nb33bcdf  DerpSpace: Remove untranslatable strings in Simplified Chinese translations  [NurKeinNeid]
-1ed470b  Merge pull request #24 from ianchb/14  [Alexander Brunswig]
-af6ce7e  DerpSpace: fix format in Simplified Chinese translation  [Cheng Haobo]\n
-\n* packages/apps/GameSpace\ndb14804  GameSpace: Update deprecated telephony APIs  [minaripenguin]\n
-\n* prebuilts/derp\n7de2cf5  prebuilts: Add QuickPick Gallery  [NurKeinNeid]\n
-
-====================
-    01-25-2024     
-====================
-\n* packages/apps/DerpSpace\nf085312  DerpSpace: Improve Simplified Chinese translation  [Cheng Haobo]
-81fef04  DerpSpace: Remove no longer used monet schemes  [Ido Ben-Hur]
-d022587  DerpSpace: Add monochromatic monet theme  [Ido Ben-Hur]
-5195f3b  DerpSpace: Add Edge light customizations [2/2]  [Anushek Prasal]
-dc8abb8  Reland "DerpSpace: config to hide status bar on lock screen [2/2]"  [maxwen]
-7387f54  DerpSpace: netmonitor: Add back intro text to the fragment  [NurKeinNeid]
-5ad5c1f  DerpSpace: Update German translations  [NurKeinNeid]\n
-\n* vendor/derp\na8f0ce6  Revert "overlay: Stop force disabling ASI Ambient Music component"  [NurKeinNeid]\n
 
