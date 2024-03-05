@@ -1,4 +1,22 @@
 ====================
+    03-05-2024     
+====================
+\n* device/oneplus/lemonadep\n5cdb43f  lemonadep: Update blobs to OxygenOS LE2121_14.0.0.212(EX01)  [Владимир]\n
+\n* device/oneplus/martini\n575d5cd  martini: Update blobs to OxygenOS MT2111_14.0.0.212(EX01)  [Владимир]\n
+\n* device/oneplus/sm8350-common\n2374600  sm8350-common: Update blobs from OxygenOS LE2121_14.0.0.212(EX01)  [Владимир]\n
+\n* kernel/oneplus/sm8350\n7ef885a  power: oplus_charger: Report discharging status on ui soc update This…  [Владимир]
+10d3d89  [DNM] arm64: dts: Disable apollo brightness  [Владимир]\n
+\n* vendor/oneplus/lemonadep\nd7537cd  lemonadep: Import blobs to OxygenOS LE2121_14.0.0.212(EX01)  [Владимир]\n
+\n* vendor/oneplus/martini\nbfdda07  martini: Revert firmware to OxygenOS MT2111_14.0.0.211(EX01)  [Владимир]
+a2a9988  martini: Import blobs to OxygenOS MT2111_14.0.0.212(EX01)  [Владимир]\n
+\n* vendor/oneplus/sm8350-common\n431e6f8  sm8350-common Import blobs to OxygenOS LE2121_14.0.0.212(EX01)  [Владимир]\n
+\n* vendor/oplus/camera\nf3feb44  camera: Update blobs to OxygenOS LE2121_14.0.0.212(EX01)  [Владимир]\n
+
+====================
+    03-04-2024     
+====================
+
+====================
     03-03-2024     
 ====================
 
@@ -936,14 +954,6 @@ c7d718f  core: Expose method to start assistant through Binder  [Danny Lin]
 c921e81  Add support to manually pause/resume downloads [1/2]  [qqzhou]
 6e28248  Import cm_strings translations from Lineage  [Tim Zimmermann]
 bcf6249  metrics_constants: Add our DerpFest metrics  [NurKeinNeid]\n
-
-====================
-    02-29-2024     
-====================
-\n* hardware/oplus\n0233376  init: Dynamically set IRQ affinity for KGSL and MSM_DRM  [Adithya R]
-fd977dc  doze: Add smart pickup gesture  [sergoops]\n
-
-====================
-    02-28-2024     
-====================
+\n* kernel/oneplus/sm8350\n1c6bbca  ARM: dts: msm: Bump up the llcc minimum frequency  [Rishabh Bhatnagar]
+e2d3f92  drivers: update KernelSU to 0.8.1 version: git rev-list --count HEAD @ https://github.com/tiann/KernelSU/commit/3f341a4e3a80c651e3d8f3bbf1070e7768a44cb8  [Lup Gabriel]\n
 
